@@ -1,12 +1,10 @@
-const choices = ["rock", "paper", "scissors"];
-const playerDiplay = document.getElementById("playerDisplay");
-const computerDisplay = document.getElementById("computerDisplay");
-const resultDisplay = document.getElementById("resultDsiplay");
+const playerText = document.querySelector("#playerText");
+const computerText = document.querySelector("#computerText");
+const resultText = document.querySelector("#resultText");
+const choiceBtns = document.querySelector(".choiceBtn");
 
-function playGame(playerChoice) {
-    const computerChoice = choices[Math.floor(Math.random() * 3)];
+let player;
+let computer;
+let result;
 
-    console.log(computerChoice);
-
-
-}
+choiceBtns.forEach(button => button);
