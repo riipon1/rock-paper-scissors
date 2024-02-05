@@ -1,38 +1,21 @@
-body {
-
-    font-family: arial, sans-serif;
-    font-weight: bold;
-    margin: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.choiceBtn {
+    line-height: 30px;
+    width: 150px;
 }
 
-h1 {
-    font-size: 3.5rem;
-    color: saddlebrown;
+.gameDiv {
+    font-family: Arial, Helvetica, sans-serif;
+    border: 5px solid;
+    border-radius: 25px;
+    padding: 10px;
+    background-color: lightcoral;
+    text-align: center;
 }
 
-.choices {
-    margin-bottom: 30px;
+#playerText{
+    color: blue;
 }
 
-.choices button {
-    font-size: 4.5rem;
-    min-width: 160px;
-    margin: 0 10px;
-    border-radius: 250px;
-    background-color:rgb(215, 181, 42);
-    cursor: pointer;
-    
-}
-
-#playerDisplay #computerDisplay{
-    font-size: 2.5rem;
-
-}
-
-#resultDiplay{
-    font-size: 5rem;
-    margin: 30px 0;
+#computerText{
+    color: red;
 }
