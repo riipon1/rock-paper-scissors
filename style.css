@@ -1,21 +1,43 @@
-.choiceBtn {
-    line-height: 30px;
-    width: 150px;
+body{
+
+    font-size: arial, sans-serif;
+    font-weight: bold;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.gameDiv {
-    font-family: Arial, Helvetica, sans-serif;
-    border: 5px solid;
-    border-radius: 25px;
-    padding: 10px;
-    background-color: lightcoral;
-    text-align: center;
+h1 {
+    font-size: 3.5rem;
+    color: lightcoral;
+
 }
 
-#playerText{
-    color: blue;
+.choicesDiv{
+    margin-bottom: 30px;
 }
 
-#computerText{
-    color: red;
+.choicesDiv button{
+
+    font-size: 7rem;
+    min-width: 150px;
+    margin: 0 10px;
+    border-radius: 200px;
+    background-color: hsla(34, 100%, 74%, 0.497);
+    cursor: pointer; 
+    transition: background-color 0.5s ease;
+
+}
+
+.choicesDiv button:hover{
+    background-color:hsla(34, 100%, 94%, 0.497);
+}
+
+#playerDisplay, #computerDisplay{
+    font-size: 2.5rem;
+}
+#resultDisplay{
+    font-size: 5rem;
+    margin: 30px 0;
 }
