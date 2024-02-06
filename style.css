@@ -20,18 +20,13 @@ h1 {
 
 .choicesDiv button{
 
-    font-size: 7rem;
+    font-size: 10rem;
     min-width: 150px;
     margin: 0 10px;
     border-radius: 200px;
     background-color: hsla(34, 100%, 74%, 0.497);
     cursor: pointer; 
-    transition: background-color 0.5s ease;
 
-}
-
-.choicesDiv button:hover{
-    background-color:hsla(34, 100%, 94%, 0.497);
 }
 
 #playerDisplay, #computerDisplay{
