@@ -3,7 +3,7 @@
 const choicesDiv = ["rock", "paper", "scissors"];
 const playerDisplay = document.getElementById("playerDisplay");
 const computerDisplay = document.getElementById("computerDisplay");
-const resultdisplay = document.getElementById("resultDisplay");
+const resultDisplay = document.getElementById("resultDisplay");
 
 function playGame(playerChoice){
 
@@ -28,8 +28,8 @@ function playGame(playerChoice){
           }
         }
 
-        
+
         playerDisplay.textContent = `PLAYER: ${playerChoice}`
-        computerChoice.textContent = `Computer: ${computerChoice}`;
-        resultdisplay.textContent = result;
+        computerDisplay.textContent = `Computer: ${computerChoice}`;
+        resultDisplay.textContent = result;
     }
