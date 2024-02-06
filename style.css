@@ -41,3 +41,15 @@ h1 {
     font-size: 5rem;
     margin: 30px 0;
 }
+
+.scoresDisplay {
+    font-size: 2rem;
+}
+
+.redText, #computerScoreDisplay{
+    color: rgba(255, 0, 0, 0.815);
+}
+
+.greenText, #playerScoreDisplay {
+    color: rgba(0, 128, 38, 0.733);
+}
