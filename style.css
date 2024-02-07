@@ -19,10 +19,23 @@ h1 {
     margin-bottom: 30px;
 }
 
-.choicesDiv button{
+button{
 
+    margin-bottom: 10px;
     font-size: 8rem;
-    margin: 0 10px;
+    border: none;
+    border-radius: 7px;
+    width: 220px;
+    cursor: pointer;
+    outline: none;
+    transition: 0.2 all linear;
+    background: none;
+
+}
+
+button:hover{
+    background-color: #a9b0b5;
+    border: 1px solid #168ddd70;
 }
 
 #playerDisplay, #computerDisplay{
@@ -43,22 +56,4 @@ h1 {
 
 .greenText, #playerScoreDisplay {
     color: rgba(0, 128, 38, 0.733);
-}
-
-button{
-
-    margin-bottom: 10px;
-    font-size: 8rem;
-    border: none;
-    border-radius: 7px;
-    width: 220px;
-    cursor: pointer;
-    outline: none;
-    transition: 0.2 all linear;
-
-}
-
-button:hover{
-    background-color: #a9b0b5;
-    border: 1px solid #168ddd70;
 }
