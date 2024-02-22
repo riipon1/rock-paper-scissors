@@ -9,9 +9,11 @@ body{
     background-color: rgb(148, 139, 139);
 }
 
-#container {
+#game-container {
     width:75%;
     text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 
 }
 
@@ -26,6 +28,10 @@ h1 {
     margin-bottom: 30px;
 }
 
+button:hover {
+    transform: scale(1.2);
+}
+
 button{
 
     margin-bottom: 10px;
@@ -37,6 +43,7 @@ button{
     outline: none;
     transition: 0.2 all linear;
     background: none;
+    transition: 100ms;
 
 }
 
