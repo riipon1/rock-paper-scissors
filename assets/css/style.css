@@ -22,4 +22,32 @@ h1 {
 .message {
     text-align: center;
     font-size: 18px;
+    margin: 3em 0 1em;
+}
+
+.images {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    height: 200px;
+}
+
+.computer img, .player img {
+    width: 75%;
+    margin: auto;
+}
+
+.points {
+    margin: 2em 0;
+    text-align: center;
+    font-size: 18px;
+}
+
+.computer-point {
+    margin-left: 1em;
+}
+
+.player-point {
+    margin-right: 1em;
 }
