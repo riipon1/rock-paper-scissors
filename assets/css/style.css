@@ -80,7 +80,7 @@ h1 {
 
 .reset-btn:hover {
     background-color: rgba(0, 139, 139, 0.257);
-    border: 1px solid rgba(0, 139, 139, 0.257);
+    border: 1px solid rgba(0, 139, 139, 0.264);
 }
 .options {
     display: flex;
