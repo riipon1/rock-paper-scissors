@@ -82,6 +82,7 @@ h1 {
     background-color: rgba(0, 139, 139, 0.257);
     border: 1px solid rgba(0, 139, 139, 0.264);
 }
+
 .options {
     display: flex;
     justify-content: space-around;
@@ -125,3 +126,20 @@ h1 {
     }
 }
 
+@keyframes shakePlayer {
+    0% {
+        transform: rotate(30deg);
+    }
+    25% {
+        transform: rotate(-30deg);
+    }
+    50% {
+        transform: rotate(30deg);
+    }
+    75% {
+        transform: rotate(-30deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
