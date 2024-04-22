@@ -78,6 +78,10 @@ h1 {
     transition: 0.2s all linear;
 }
 
+.reset-btn:hover {
+    background-color: rgba(0, 139, 139, 0.257);
+    border: 1px solid rgba(0, 139, 139, 0.257);
+}
 .options {
     display: flex;
     justify-content: space-around;
