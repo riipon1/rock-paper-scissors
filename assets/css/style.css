@@ -5,7 +5,7 @@
 body {
     background: #7a97a5;
     color: #fff;
-    font-family: arial;
+    font-family: Arial;
 }
 
 h1 {
@@ -44,10 +44,26 @@ h1 {
     font-size: 18px;
 }
 
-.computer-point {
+.computerPoint {
     margin-left: 1em;
 }
 
-.player-point {
+.playerPoint {
     margin-right: 1em;
+}
+
+.options {
+    display: flex;
+    justify-content: space-around;
+    margin: 1em;
+}
+
+.options button {
+    background: none;
+    color: #fff;
+    font-family: Arial;
+    border: 1px;
+    padding: 0.8 1.5em;
+    border-radius: 5px;
+    width: 120px;
 }
