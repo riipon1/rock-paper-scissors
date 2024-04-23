@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", function() {
             updateImages(playerChoice, computerChoice);
             updateScore(playerChoice, computerChoice);
             resultDisplay(playerChoice, computerChoice);
-        } 900);
+        }, 900);
     }
 
 });
