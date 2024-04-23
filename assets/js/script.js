@@ -23,4 +23,9 @@ document.addEventListener("DOMContentLoaded", function() {
         }, 900);
     }
 
+    function getComputerChoice() {
+        const choices = ["ROCK", "PAPER", "SCISSORS"];
+        return choices[Math.floor(Math.random() * 3)];
+    }
+
 });
