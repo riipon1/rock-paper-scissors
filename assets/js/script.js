@@ -34,5 +34,13 @@ document.addEventListener("DOMContentLoaded", function() {
         playerImages.forEach((image, index)=> image.style.display = index === choiceIndex(playerChoice)? "block" : "none");
     }
 
+    function addShakeAnimations() {
+        const shakeComputer = () => computerImages.forEach(images => images.classList.add("shakeComputer"));
+        const shakePlayer = () => playerImages.forEach(image => image.classList.add("shakePlayer"));
+        const clearShake = () => {
+
+        }
+    }
+
 
 });
