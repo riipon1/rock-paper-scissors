@@ -38,11 +38,11 @@ h1 {
     margin: auto;
 }
 
-.computer img {
+.shakeComputer {
     animation: shakeComputer 0.8s linear;
 }
 
-.player img {
+.shakePlayer {
     animation: shakePlayer 0.8s linear;
 }
 
