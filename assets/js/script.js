@@ -13,4 +13,14 @@ document.addEventListener("DOMContentLoaded", function() {
         });
     });
 
+    function playRound (playerChoice) {
+        const computerChoice = getComputerChoice();
+        addShakeAnimations();
+        setTimeout(() => {
+            updateImages(playerChoice, computerChoice);
+            updateScore(playerChoice, computerChoice);
+            resultDisplay(playerChoice, computerChoice);
+        } 900);
+    }
+
 });
