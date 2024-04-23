@@ -28,4 +28,11 @@ document.addEventListener("DOMContentLoaded", function() {
         return choices[Math.floor(Math.random() * 3)];
     }
 
+    function updateImages(playerChoice, computerChoice) {
+        const choiceIndex = choice => ["ROCK", "PAPER", "SCISSORS"].indexOf(choice.toUpperCase());
+        computerImages.forEach((image, index)=> image.style.display = index === choiceIndex(computerChoice)? "block" : "none");
+        playerImages.forEach((image, index)=> image.style.display = index === choiceIndex(playerChoice)? "block" : "none");
+    }
+
+
 });
