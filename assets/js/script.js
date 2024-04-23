@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", function() {
     const resetButton = document.querySelector(".reset-btn");
 
     options.forEach(Option => {
-        options.addEventListener("click, () =>" {
+        options.addEventListener("click", () => {
             playRound(option.textContent.toUpperCase());
         });
     });
