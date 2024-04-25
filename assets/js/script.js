@@ -38,7 +38,7 @@ document.addEventListener("DOMContentLoaded", function() {
         const shakeComputer = () => computerImages.forEach(images => images.classList.add("shakeComputer"));
         const shakePlayer = () => playerImages.forEach(image => image.classList.add("shakePlayer"));
         const clearShake = () => {
-
+            
         }
     }
 
