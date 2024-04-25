@@ -38,8 +38,8 @@ document.addEventListener("DOMContentLoaded", function() {
         const shakeComputer = () => computerImages.forEach(image => image.classList.add("shakeComputer"));
         const shakePlayer = () => playerImages.forEach(image => image.classList.add("shakePlayer"));
         const clearShake = () => {
-            computerImages.forEach(image.classList.remove("shakeComputer"));
-            playerImages.forEach(image.classList.remove("shakePlayer"));
+            computerImages.forEach(image => classList.remove("shakeComputer"));
+            playerImages.forEach(image => classList.remove("shakePlayer"));
         };
     }
 
