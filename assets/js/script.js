@@ -35,11 +35,12 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 
     function addShakeAnimations() {
-        const shakeComputer = () => computerImages.forEach(images => images.classList.add("shakeComputer"));
+        const shakeComputer = () => computerImages.forEach(image => image.classList.add("shakeComputer"));
         const shakePlayer = () => playerImages.forEach(image => image.classList.add("shakePlayer"));
         const clearShake = () => {
-            
-        }
+            computerImages.forEach(image.classList.remove("shakeComputer"));
+            playerImages.forEach(image.classList.remove("shakePlayer"));
+        };
     }
 
 
