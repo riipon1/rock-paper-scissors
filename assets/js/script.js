@@ -30,16 +30,16 @@ document.addEventListener("DOMContentLoaded", function() {
 
     function updateImages(playerChoice, computerChoice) {
         const choiceIndex = choice => ["ROCK", "PAPER", "SCISSORS"].indexOf(choice.toUpperCase());
-        computerImages.forEach((image, index)=> image.style.display = index === choiceIndex(computerChoice)? "block" : "none");
-        playerImages.forEach((image, index)=> image.style.display = index === choiceIndex(playerChoice)? "block" : "none");
+        computerImages.forEach((image, index) => image.style.display = index === choiceIndex(computerChoice) ? "block" : "none");
+        playerImages.forEach((image, index) => image.style.display = index === choiceIndex(playerChoice)? "block" : "none");
     }
 
     function addShakeAnimations() {
         const shakeComputer = () => computerImages.forEach(image => image.classList.add("shakeComputer"));
         const shakePlayer = () => playerImages.forEach(image => image.classList.add("shakePlayer"));
         const clearShake = () => {
-            computerImages.forEach(image => classList.remove("shakeComputer"));
-            playerImages.forEach(image => classList.remove("shakePlayer"));
+            computerImages.forEach(image => image.classList.remove("shakeComputer"));
+            playerImages.forEach(image => image.classList.remove("shakePlayer"));
         };
 
         shakeComputer();
