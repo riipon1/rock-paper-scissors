@@ -58,4 +58,16 @@ document.addEventListener("DOMContentLoaded", function() {
         winner.textContent = parseInt(winner.textContent) + 1;
     }
 
+    function displayResult (playerChoice, computerChoice) {
+        const resultText = (
+            playerChoice === computerChoice ? "IT'S A TIE!"
+            (playerChoice === "ROCK" && computerChoice === "SCISSORS") ||
+            (playerChoice === "PAPER" && computerChoice === "ROCK") ||
+            (playerChoice === "SCISSORS" && computerChoice === "PAPER") ? "PLAYER WINS!" : "COMPUTER WINS!"
+        );
+
+        resultDisplay.textContent = resultText;
+    }
+
+
 });
