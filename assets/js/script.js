@@ -7,8 +7,8 @@ document.addEventListener("DOMContentLoaded", function() {
     const options = document.querySelectorAll(".options button");
     const resetButton = document.querySelector(".reset-btn");
 
-    options.forEach(Option => {
-        options.addEventListener("click", () => {
+    options.forEach(option => {
+        option.addEventListener("click", () => {
             playRound(option.textContent.toUpperCase());
         });
     });
@@ -41,7 +41,21 @@ document.addEventListener("DOMContentLoaded", function() {
             computerImages.forEach(image => classList.remove("shakeComputer"));
             playerImages.forEach(image => classList.remove("shakePlayer"));
         };
+
+        shakeComputer();
+        shakePlayer();
+        setTimeout(clearShake, 900);
     }
 
+    function updateScore(playerChoice, computerChoice) {
+        if (playerChoice === computerChoice) return;
+        const winner = (
+            (playerChoice === "ROCK" && computerChoice === "SCISSORS") ||
+            (playerChoice === "PAPER" && computerChoice === "ROCK") ||
+            (playerChoice === "SCISSORS" && computerChoice === "PAPER") 
+        ) ? playerChoice : computerChoice;
+
+        winner.textContent = parseInt(winner.textContent) + 1;
+    }
 
 });
