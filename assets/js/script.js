@@ -69,5 +69,14 @@ document.addEventListener("DOMContentLoaded", function() {
         resultDisplay.textContent = resultText;
     }
 
+    resetButton.addEventListener("click", resetGame);
+
+    function resetGame() {
+        computerPoint.textContent = "0";
+        playerPoint.textContent ="0";
+        resultDisplay.textContent ="";
+    }
+
+
 
 });
