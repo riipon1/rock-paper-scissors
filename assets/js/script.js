@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", function() {
     const resultDisplay = document.querySelector(".resultDisplay");
     const options = document.querySelectorAll(".options button");
     const resetButton = document.querySelector(".reset-btn");
-
+   
     options.forEach(option => {
         option.addEventListener("click", () => {
             playRound(option.textContent.toUpperCase());
@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", function() {
         setTimeout(() => {
             updateImages(playerChoice, computerChoice);
             updateScore(playerChoice, computerChoice);
-            resultDisplay(playerChoice, computerChoice);
+            displayResult(playerChoice, computerChoice);
         }, 900);
     }
 
@@ -79,4 +79,5 @@ document.addEventListener("DOMContentLoaded", function() {
         computerImages.forEach((image, index) => image.style.display = index === 0 ? "block" : "none");
         playerImages.forEach((image, index) => image.style.display = index === 0 ? "block" : "none");
     }
+
 });
