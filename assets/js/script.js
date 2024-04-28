@@ -75,6 +75,9 @@ document.addEventListener("DOMContentLoaded", function() {
         computerPoint.textContent = "0";
         playerPoint.textContent ="0";
         resultDisplay.textContent ="";
+
+        computerImages.forEach((image, index) => image.style.display = index === 0 ? "block" : "none");
+        playerImages.forEach((image, index) => image.style.display = index === 0 ? "block" : "none");
     }
 
 
