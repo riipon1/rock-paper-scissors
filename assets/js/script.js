@@ -79,7 +79,4 @@ document.addEventListener("DOMContentLoaded", function() {
         computerImages.forEach((image, index) => image.style.display = index === 0 ? "block" : "none");
         playerImages.forEach((image, index) => image.style.display = index === 0 ? "block" : "none");
     }
-
-
-
 });
