@@ -14,7 +14,7 @@ h1 {
 }
 
 .game-container {
-    display: flex;
+    display: flex; 
     flex-direction: column;
     justify-content: center;
 }
