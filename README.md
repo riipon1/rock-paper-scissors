@@ -5,10 +5,17 @@
 ## User Experience (UX)
 
 - The game's aim is to provide users with an engaging and entertaining experience as they play the classic Rock paper scissors game against the computer - with a user-friendly interface users can enjoy hours of fun and excitement. 
--   The game has sleek and modern design with clear visual RPS choices 
-- Responsive layout for seamless experience on all devices 
+- The game has sleek and modern design with clear visual RPS choices.
+- Responsive layout for seamless experience on all devices. 
+- Dynamic animations and vial effects for result display button when clicked. 
 
 ## User Goals
+
+- Ensured the game has reponsiveness and compatibility across various devices.
+- The game has simple and intuitive interface for making choices during the game.
+- keeping users engaged with aminations and visual effect for 
+
+
 
 ## Designs 
 ### colors
