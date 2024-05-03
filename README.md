@@ -3,20 +3,19 @@
  Welcome to the Rock, Paper Scissors game! This project is a simple web-based game where users can play the classic Rock, Paper, Scissors against the computer. It's a fun and interactive way to pass the time and test your luck and strategy skills. if you are a beginner or a seasoned player - this game will offer an enjoyable experience for all ages. so, get ready to make your choices and see if you can outsmart the computer in this timeless game of chances. 
 
 ## User Experience (UX)
+### key information
 
 - The game's aim is to provide users with an engaging and entertaining experience as they play the classic Rock paper scissors game against the computer - with a user-friendly interface users can enjoy hours of fun and excitement. 
 - The users will be presanted with clear and visually appealing images represenating their choices of Rock, Paper, or Scissors.
 - Users can then make their choice by clicking on the corresponding button for rock, paper or scissors. The computer will then generate it's choice and the result will be displayed with dynamic animations and engaging visual effects. 
 - The game also keeps track of the score and updates the score for both the player and the computer after each round. Users can also reset the game by clicking the "Reset Game" button to start over.
 
-## Users Goals
+## User Goals
 
 - The game has sleek and modern design with clear visual RPS choices.
-- Ensured responsiveness and compatibility across various devices 
+- Ensured responsiveness and compatibility across various devices.
 - The game has simple and intuitive interface for making choices during the game.
-- Keeping users engaged with dynamic animations and visual effects
-
-
+- Keeping users engaged with dynamic animations and visual effects.
 
 ## Designs 
 
