@@ -1,11 +1,10 @@
 *{
-
     margin: 0;
 }
 
 
 body {
-    background: #0b405a;
+    background: rgb(92 17 31);
     color: #fff;
     font-family: Arial;
 }
@@ -102,10 +101,10 @@ h1 {
 }
 
 .reset-btn {
-    margin: 5px auto;
+    margin: 20px auto;
     border: none;
     color: #fff;
-    background-color: #20bcafb5;
+    background-color: #120606;
     text-align: center;
     text-decoration: none;
     padding: 0.8em 1.5em;
@@ -118,7 +117,7 @@ h1 {
 }
 
 .reset-btn:hover {
-    background-color: rgba(0, 139, 139, 0.257);
+    background-color: rgba(10, 41, 72, 0.89);
     border: 1px solid rgba(0, 139, 139, 0.264);
 }
 
@@ -144,7 +143,7 @@ h1 {
 }
 
 .option:hover {
-    background-color: rgba(0, 139, 139, 0.408);
+    background-color: rgba(0, 0, 0, 0.942);
     border: 1px solid rgba(0, 139, 139, 0.363);
 }
 
