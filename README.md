@@ -31,6 +31,12 @@
 
 ## Features
 
+#### This Rock Paper Scissors game offers a range of features that provides an engaging and enjoyable gaming experience for players.
+- Interactive Gameplay: Players can participate against the computer to test their luck and strategy with each round of the RPS game. 
+- Dynamic Animations & Score Tracking: There is shake animations applied to the computer and player images during the gameplay. There si also a score tracking system which keeps track of the score for both the player and the computer, updating it in real time after each round to provide feedback on performance. 
+
+
+
 ## Technologies 
 ### Languages used
 
