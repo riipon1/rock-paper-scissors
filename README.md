@@ -18,14 +18,14 @@
 - Keeping users engaged with dynamic animations and visual effects.
 
 ## Designs 
-- 
-
 ### Colors
 - I have chosen the deep blue color for primary background color for the game interface, it provides a calm and neutral backdrop that enhances the visibility of the game elements.
 - The accent color is used for the rerset button hover effect for vibrancy and interactivity to the interface.
 - White is used for the border of the game option buttons and text for high contrast. The chosen color combination aims to create a visually pleasing and user-friendly experience for palyers. 
 
 ## Typography 
+
+- Arial was used as the chesen font for the game to increase readability and keeping consistancy. The Arial font family also give a clean and distinct appearance. 
 
 ## Wireframes
 
