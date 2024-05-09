@@ -29,7 +29,6 @@ body {
     padding: 0.8em 1.5em;
     display: flex;
     font-size: 15px;
-    /* font-weight: bold; */
     border-radius: 10px;
     cursor: pointer;
     outline: none;
