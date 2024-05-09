@@ -158,6 +158,19 @@ h1 {
     border: 1px solid rgba(0, 139, 139, 0.363);
 }
 
+.home-btn {
+    margin: 5px auto;
+    color: rgb(189, 189, 189);
+    background-color: #205857;
+    text-align: center;
+    text-decoration: none;
+    padding: 0.8em 1.5em;
+    display: flex;
+    font-size: 12px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
 @keyframes shakeComputer {
     0% {
         transform: rotate(-30deg);
