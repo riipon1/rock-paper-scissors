@@ -128,7 +128,7 @@ h1 {
 }
 
 .reset-btn:hover {
-    background-color: rgba(0, 0, 0, 0.942);
+    background-color: rgba(18, 49, 55, 0.993);
     border: 1px solid rgba(0, 139, 139, 0.363);
 }
 
@@ -174,7 +174,7 @@ h1 {
 
 .home-btn:hover {
     background-color: rgba(8, 8, 8, 0.671);
-    border: 1px solid rgba(0, 139, 139, 0.363);;
+    border: 1px solid rgba(0, 139, 139, 0.363);
 }
 
 @keyframes shakeComputer {
