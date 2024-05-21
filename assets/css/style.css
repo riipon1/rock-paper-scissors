@@ -14,7 +14,7 @@ body {
     justify-content: center;
     margin: 0 auto;
     padding: 2rem;
-    height: 600px;
+    height: 200px;
     top: 50%;
 }
 
@@ -62,7 +62,7 @@ h1 {
 .message {
     text-align: center;
     font-size: 18px;
-    margin: 2em 0 1em;
+    margin: 1em 0 1em;
 }
 
 .images {
@@ -134,7 +134,6 @@ h1 {
 .options {
     display: flex;
     justify-content: center;
-    margin: 1em;
 }
 
 .option {
