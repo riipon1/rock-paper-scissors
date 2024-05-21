@@ -61,12 +61,6 @@ h1 {
     width: 100vw;
 }
 
-.message {
-    text-align: center;
-    font-size: 18px;
-    margin: 1em 0 1em;
-}
-
 .images {
     display: flex;
     justify-content: space-around;
