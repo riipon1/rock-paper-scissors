@@ -59,6 +59,7 @@ h1 {
     justify-content: center;
     height: 100vh;
     width: 100vw;
+    
 }
 
 .images {
@@ -66,7 +67,7 @@ h1 {
     justify-content: space-around;
     align-items: center;
     text-align: center;
-    height: 200px;
+    height: 220px;
 }
 
 .computer img, .player img {
@@ -207,7 +208,7 @@ h1 {
     }
 }
 
-@media all and (max-width: 500px) {
+@media all and (max-width: 768px) {
     
     .game-container {
         max-width: 800px;
