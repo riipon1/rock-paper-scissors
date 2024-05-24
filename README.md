@@ -14,6 +14,8 @@
 
 - The game also keeps track of the score and updates the score for both the player and the computer after each round. Users can also reset the game by clicking the "Reset Game" button to start over. 
 
+- Game also includes a "Return Home" button to return to home/cover page. 
+
 ## User Goals 
 
 - The game has sleek and modern design with clear visual RPS choices. 
@@ -29,9 +31,9 @@
 
 ### Colors 
 
-- I have chosen the deep blue color for the primary background color for the game interface, it provides a calm and neutral backdrop that enhances the visibility of the game elements. 
+- I have chosen the brown color for the primary background color for the game interface, it provides a calm and neutral backdrop that enhances the visibility of the game elements. 
 
-- The accent color is used for the reset button hover effect for vibrancy and interactivity to the interface. 
+- The accent color is used for the reset button and the return home hover effect for vibrancy and interactivity to the interface. 
 
 - White is used for the border of the game option buttons and text for high contrast. The chosen color combination aims to create a visually pleasing and user-friendly experience for players.  
 
