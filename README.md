@@ -55,10 +55,17 @@
 ## Technologies 
 ### Languages used
 
+- The game was created using HTML5, CSS3 and JavaScript, HTML was used to structure the content and CSS was used to style the content and JavaScript was used for the logic and interactivity. 
+
 ### Frameworks and Programs used
+
+- Gitpod was used for whiteing and editting code 
+- google developer tools was used for testing, styling and responsiveness of the game. It was good for solving bugs. 
 
 ## Credits
 ### Media 
+
+- Images were found on google for the game. 
 
 ## Deployment and Local Deployment 
 
