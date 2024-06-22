@@ -85,6 +85,8 @@ This project can be found by cloning it steps to follow:
 ## How to fork repo
 * Sign in to GitHub. Find the repository project and click fork in the top right corner below the settings tab. 
 ## Validator Testing 
+- W3C validator was used to validate Index.html
+- W3C Jigsaw validator was used for CSS
 ### Lighthouse
 
 ## Solved Bugs
