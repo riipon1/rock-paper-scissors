@@ -31,7 +31,7 @@
 
 ### Colors 
 
-- I have chosen the brown color for the primary background color for the game interface, it provides a calm and neutral backdrop that enhances the visibility of the game elements. 
+- I have chosen the burgundy color for the primary background color for the game interface, it provides a calm and neutral backdrop that enhances the visibility of the game elements. 
 
 - The accent color is used for the reset button and the return home hover effect for vibrancy and interactivity to the interface. 
 
@@ -43,7 +43,7 @@
 - Arial was used as the chosen font for the game to increase readability and keep consistency. The Arial font family also gives a clean and distinct appearance.  
 
 ## Wireframes 
-
+- I used Balsamiq to create wireframes for different screen sizes 
 ## Features 
 
 #### This Rock Paper Scissors game offers a range of features that provides an engaging and enjoyable gaming experience for players. 
