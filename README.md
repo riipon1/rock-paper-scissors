@@ -87,6 +87,7 @@ This project can be found by cloning it steps to follow:
 ## Validator Testing 
 - W3C validator was used to validate Index.html
 - W3C Jigsaw validator was used for CSS
+- JSHint validator was used for Javascript  
 ### Lighthouse
 
 ## Solved Bugs
