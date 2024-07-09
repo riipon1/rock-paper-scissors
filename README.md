@@ -89,6 +89,7 @@ This project can be found by cloning it steps to follow:
 - W3C Jigsaw validator was used for CSS
 - JSHint validator was used for Javascript  
 ### Lighthouse
+Lighthouse was used in the chrome developer tools to test the Performance, best practice, accessibility and SEO of the game - I tested it for both mobile and desktop devices.  
 
 ## Solved Bugs
 
