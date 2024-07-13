@@ -93,6 +93,11 @@ This project can be found by cloning it steps to follow:
 - W3C validator was used to validate Index.html
 - W3C Jigsaw validator was used for CSS
 - JSHint validator was used for Javascript  
+
+![HTML checker](/Documentation%20/html-checker.png)
+![CSS checker](/Documentation%20/CSS-checker.png)
+![JS checker](/Documentation%20/jhint-checker.png)
+- All Three files returned as pass with no errors found.
 ### Lighthouse
 Lighthouse was used in the chrome developer tools to test the Performance, best practice, accessibility and SEO of the game - I tested it for both mobile and desktop devices.  
 
