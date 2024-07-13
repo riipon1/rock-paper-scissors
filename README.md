@@ -101,6 +101,9 @@ This project can be found by cloning it steps to follow:
 ### Lighthouse
 Lighthouse was used in the chrome developer tools to test the Performance, best practice, accessibility and SEO of the game - I tested it for both mobile and desktop devices.  
 
+![Mobile lighthouse](/Documentation%20/lighthouse%20-%20mobile.png)
+
+![Desktop lighthouse](/Documentation%20/lighthouse%20-%20desktop.png)
 ## Solved Bugs
 
 ## Future Improvement 
