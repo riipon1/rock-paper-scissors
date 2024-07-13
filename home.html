@@ -10,38 +10,52 @@
     <title>Rock, Paper, Scissors</title>
 </head>
 <body>
+    <!-- Game Container -->
     <div class="game-container"> 
+        <!-- Game Title -->
         <h1>RPS: Showdown</h1>
+        
+        <!-- Game Images Section -->
         <div class="images">
+            <!-- Computer's Choice Images -->
             <div class="computer">
                 <img src="assets/images/computerRock.png" alt="Computer's choice" class="computer-choice">
                 <img src="assets/images/computerPaper.png" alt="Computer's choice" class="computer-choice" style="display:none;">
                 <img src="assets/images/computerScissors.png" alt="Computer's choice" class="computer-choice" style="display: none;">
             </div>
+            <!-- Player's Choice Images -->
             <div class="player">
                 <img src="assets/images/playerRock.png" alt="Player's choice" class="player-choice">
                 <img src="assets/images/playerPaper.png" alt="Player's choice" class="player-choice" style="display: none;">
                 <img src="assets/images/playerScissors.png" alt="Player's choice" class="player-choice" style="display: none;">
-            </div>
-        </div>
-            <div class="points">
-                COMPUTER <span class="computerPoint">0</span> /
-               <span class="playerPoint">0</span> PLAYER 
             </div> 
+        </div>
+        
+        <!-- Points Display -->
+        <div class="points">
+            COMPUTER <span class="computerPoint">0</span> /
+            <span class="playerPoint">0</span> PLAYER 
+        </div> 
 
-            <div class="resultDisplay"></div>
-            <button type="button" class="reset-btn">Reset Game</button>
+        <!-- Result Display -->
+        <div class="resultDisplay"></div>
+        
+        <!-- Reset Game Button -->
+        <button type="button" class="reset-btn">Reset Game</button>
 
-            <div class="options">
+        <!-- Game Options -->
+        <div class="options">
             <button type="button" class="option" aria-label="Rock">ROCK</button>
             <button type="button" class="option" aria-label="Paper">PAPER</button>
             <button type="button" class="option" aria-label="Scissors">SCISSORS</button>
-            </div>
-            
-            <a class="home-btn" href="index.html">Return Home</a>
+        </div>
+        
+        <!-- Return Home Button -->
+        <a class="home-btn" href="index.html">Return Home</a>
 
     </div>
 
+    <!-- External JavaScript File -->
     <script src="assets/js/script.js"></script>
 </body>
 </html>
