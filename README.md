@@ -109,7 +109,9 @@ Lighthouse was used in the chrome developer tools to test the Performance, best 
 
 ![Desktop lighthouse](/Documentation%20/lighthouse%20-%20desktop.png)
 ## Solved Bugs
-- I had few bug on the Javascript event listener loop, I was adding an event listener to each option, and I was using options instead of option inside the loop. 
+- I had few bug on the Javascript event listener loop, I was adding an event listener to each option, and I was using options instead of option inside the loop whitch was corrected.
+- Issue: The initial code tried to call resultDisplay as if it were a function. Correctly updated resultDisplay.textContent to show the result message.
+- 
 
 ## Future Improvement 
 
