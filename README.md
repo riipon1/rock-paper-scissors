@@ -110,8 +110,13 @@ Lighthouse was used in the chrome developer tools to test the Performance, best 
 ![Desktop lighthouse](/Documentation%20/lighthouse%20-%20desktop.png)
 ## Solved Bugs
 - I had few bug on the Javascript event listener loop, I was adding an event listener to each option, and I was using options instead of option inside the loop whitch was corrected.
-- Issue: The initial code tried to call resultDisplay as if it were a function. Correctly updated resultDisplay.textContent to show the result message.
-- There were no clear function to determine and display the result message.I added a function displayResult to handle and display the result message.
+- The initial code tried to call resultDisplay as if it were a function. I Correctly updated resultDisplay.textContent to show the result message.
+- There were no clear function to determine and display the result message. I added a function displayResult to handle and display the result message.
 
 ## Future Improvement 
+- I would like to add sound effects for each choice selection, win, lose, and tie events to make the game more engaging.
+- Implement a leaderboard to track and display the highest scores or winning streaks.
+- Introduce different difficulty levels easy, medium, hard for the computer opponent.
+- lastly, I am aware that the quality of my commit messages can be improved, and I aim to provide more precise and informative descriptions in future projects. 
+
 
