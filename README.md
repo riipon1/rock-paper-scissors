@@ -56,6 +56,7 @@ The color palette was created by using [coolors](/Documentation%20/RPS-ColorPale
 - Dynamic Animations & Score Tracking: There are shake animations applied to the computer and player images during the gameplay. There is also a score tracking system which keeps track of the score for both the player and the computer, updating it in real time after each round to provide feedback on performance. 
 
 ![Game page](/Documentation%20/RPS-Gamepage.png)
+![Home page](/Documentation%20/RPS-homepage.png)
 
 ## Technologies 
 ### Languages used
