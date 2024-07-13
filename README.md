@@ -2,7 +2,7 @@
 
  Welcome to the Rock, Paper Scissors game! This project is a simple web-based game where users can play the classic Rock, Paper, Scissors against the computer. It's a fun and interactive way to pass the time and test your luck and strategy skills. If you are a beginner or a seasoned player - this game will offer an enjoyable experience for all ages. So, get ready to make your choices and see if you can outsmart the computer in this timeless game of chances.  
 
- ![RPS game on different devices](/Documentation%20/responsive-img.png)
+ ![RPS game on different devices](/documentation/responsive-img.png)
 
  [View Rock, Paper Scissors game on Github pages](https://riipon1.github.io/rock-paper-scissors/)
 ## User Experience (UX) 
@@ -33,22 +33,22 @@
 ## Designs  
 
 ### Colors 
-![RPS game color scheme](/Documentation%20/RPS-ColorPalette.png)
+![RPS game color scheme](/documentation%20/RPS-ColorPalette.png)
 - I have chosen the burgundy color for the primary background color for the game interface, it provides a calm and neutral backdrop that enhances the visibility of the game elements. 
 
 - The accent color is used for the reset button and the return home hover effect for vibrancy and interactivity to the interface. 
 
 - White is used for the border of the game option buttons and text for high contrast. The chosen color combination aims to create a visually pleasing and user-friendly experience for players.  
 
-The color palette was created by using [coolors](/Documentation%20/RPS-ColorPalette.png) website.
+The color palette was created by using [coolors](/documentation/RPS-ColorPalette.png) website.
 
 ## Typography  
 
 - Arial was used as the chosen font for the game to increase readability and keep consistency. The Arial font family also gives a clean and distinct appearance.  
 
 ## Wireframes 
-![Home wireframe](/Documentation%20/wireframe-rps-home.png)
-![Game wireframe](/Documentation%20/wireframe-rps-game.png)
+![Home wireframe](/documentation%20/wireframe-rps-home.png)
+![Game wireframe](/documentation%20/wireframe-rps-game.png)
 - I used Balsamiq to create wireframes for different screen sizes.
 ## Features 
 
@@ -58,8 +58,8 @@ The color palette was created by using [coolors](/Documentation%20/RPS-ColorPale
 
 - Dynamic Animations & Score Tracking: There are shake animations applied to the computer and player images during the gameplay. There is also a score tracking system which keeps track of the score for both the player and the computer, updating it in real time after each round to provide feedback on performance. 
 
-![Game page](/Documentation%20/RPS-Gamepage.png)
-![Home page](/Documentation%20/RPS-homepage.png)
+![Game page](/documentation%20/RPS-Gamepage.png)
+![Home page](/documentation%20/RPS-homepage.png)
 
 ## Technologies 
 ### Languages used
@@ -98,16 +98,16 @@ This project can be found by cloning it steps to follow:
 - W3C Jigsaw validator was used for CSS
 - JSHint validator was used for Javascript  
 
-![HTML checker](/Documentation%20/html-checker.png)
-![CSS checker](/Documentation%20/CSS-checker.png)
-![JS checker](/Documentation%20/jhint-checker.png)
+![HTML checker](/documentation%20/html-checker.png)
+![CSS checker](/documentation%20/CSS-checker.png)
+![JS checker](/documentation%20/jhint-checker.png)
 - All Three files returned as pass with no errors found.
 ### Lighthouse
 Lighthouse was used in the chrome developer tools to test the Performance, best practice, accessibility and SEO of the game - I tested it for both mobile and desktop devices.  
 
-![Mobile lighthouse](/Documentation%20/lighthouse%20-%20mobile.png)
+![Mobile lighthouse](/documentation%20/lighthouse%20-%20mobile.png)
 
-![Desktop lighthouse](/Documentation%20/lighthouse%20-%20desktop.png)
+![Desktop lighthouse](/documentation%20/lighthouse%20-%20desktop.png)
 ## Solved Bugs
 - I had few bug on the Javascript event listener loop, I was adding an event listener to each option, and I was using options instead of option inside the loop whitch was corrected.
 - The initial code tried to call resultDisplay as if it were a function. I Correctly updated resultDisplay.textContent to show the result message.
