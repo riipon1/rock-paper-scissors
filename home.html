@@ -3,17 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/css/style.css">
     <meta name=" description" content="Rock Paper Scissors Game">
     <meta name= "keywords" content="rock, paper, scissors, interactive game">
     <meta name="author" content="Abdul Hoque">
-    <title>RPS</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Rock, Paper, Scissors</title>
 </head>
 <body>
-    <h1 class="home">Rock, Paper, Scissors: Showdown</h1>
-    <div class="container">
-        <a class="btn" href="index.html">Play Game</a>
+    <div class="game-container"> 
+        <h1>RPS: Showdown</h1>
+        <div class="images">
+            <div class="computer">
+                <img src="assets/images/computerRock.png" alt="Computer's choice" class="computer-choice">
+                <img src="assets/images/computerPaper.png" alt="Computer's choice" class="computer-choice" style="display:none;">
+                <img src="assets/images/computerScissors.png" alt="Computer's choice" class="computer-choice" style="display: none;">
+            </div>
+            <div class="player">
+                <img src="assets/images/playerRock.png" alt="Player's choice" class="player-choice">
+                <img src="assets/images/playerPaper.png" alt="Player's choice" class="player-choice" style="display: none;">
+                <img src="assets/images/playerScissors.png" alt="Player's choice" class="player-choice" style="display: none;">
+            </div>
+        </div>
+            <div class="points">
+                COMPUTER <span class="computerPoint">0</span> /
+               <span class="playerPoint">0</span> PLAYER 
+            </div> 
+
+            <div class="resultDisplay"></div>
+            <button type="button" class="reset-btn">Reset Game</button>
+
+            <div class="options">
+            <button type="button" class="option" aria-label="Rock">ROCK</button>
+            <button type="button" class="option" aria-label="Paper">PAPER</button>
+            <button type="button" class="option" aria-label="Scissors">SCISSORS</button>
+            </div>
+            
+            <a class="home-btn" href="home.html">Return Home</a>
+
     </div>
-    
+
+    <script src="assets/js/script.js"></script>
 </body>
 </html>
