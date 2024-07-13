@@ -111,7 +111,7 @@ Lighthouse was used in the chrome developer tools to test the Performance, best 
 ## Solved Bugs
 - I had few bug on the Javascript event listener loop, I was adding an event listener to each option, and I was using options instead of option inside the loop whitch was corrected.
 - Issue: The initial code tried to call resultDisplay as if it were a function. Correctly updated resultDisplay.textContent to show the result message.
-- 
+- There were no clear function to determine and display the result message.I added a function displayResult to handle and display the result message.
 
 ## Future Improvement 
 
