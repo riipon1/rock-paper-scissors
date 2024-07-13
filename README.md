@@ -30,20 +30,21 @@
 ## Designs  
 
 ### Colors 
-![RPS game color scheme]
+![RPS game color scheme](/Documentation%20/RPS-ColorPalette.png)
 - I have chosen the burgundy color for the primary background color for the game interface, it provides a calm and neutral backdrop that enhances the visibility of the game elements. 
 
 - The accent color is used for the reset button and the return home hover effect for vibrancy and interactivity to the interface. 
 
 - White is used for the border of the game option buttons and text for high contrast. The chosen color combination aims to create a visually pleasing and user-friendly experience for players.  
 
+The color palette was created by using [coolors](/Documentation%20/RPS-ColorPalette.png) website.
 
 ## Typography  
 
 - Arial was used as the chosen font for the game to increase readability and keep consistency. The Arial font family also gives a clean and distinct appearance.  
 
 ## Wireframes 
-- I used Balsamiq to create wireframes for different screen sizes 
+- I used Balsamiq to create wireframes for different screen sizes
 ## Features 
 
 #### This Rock Paper Scissors game offers a range of features that provides an engaging and enjoyable gaming experience for players. 
