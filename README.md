@@ -2,6 +2,7 @@
 
  Welcome to the Rock, Paper Scissors game! This project is a simple web-based game where users can play the classic Rock, Paper, Scissors against the computer. It's a fun and interactive way to pass the time and test your luck and strategy skills. If you are a beginner or a seasoned player - this game will offer an enjoyable experience for all ages. So, get ready to make your choices and see if you can outsmart the computer in this timeless game of chances.  
 
+ ![RPS game on different devices](/Documentation%20/responsive-img.png)
 ## User Experience (UX) 
 
 ### key information 
