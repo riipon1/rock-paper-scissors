@@ -109,6 +109,7 @@ Lighthouse was used in the chrome developer tools to test the Performance, best 
 
 ![Desktop lighthouse](/Documentation%20/lighthouse%20-%20desktop.png)
 ## Solved Bugs
+- I had few bug on the Javascript event listener loop, I was adding an event listener to each option, and I was using options instead of option inside the loop. 
 
 ## Future Improvement 
 
