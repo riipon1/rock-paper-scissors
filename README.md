@@ -30,7 +30,7 @@
 ## Designs  
 
 ### Colors 
-
+![RPS game color scheme]
 - I have chosen the burgundy color for the primary background color for the game interface, it provides a calm and neutral backdrop that enhances the visibility of the game elements. 
 
 - The accent color is used for the reset button and the return home hover effect for vibrancy and interactivity to the interface. 
