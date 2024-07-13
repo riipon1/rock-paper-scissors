@@ -44,7 +44,9 @@ The color palette was created by using [coolors](/Documentation%20/RPS-ColorPale
 - Arial was used as the chosen font for the game to increase readability and keep consistency. The Arial font family also gives a clean and distinct appearance.  
 
 ## Wireframes 
-- I used Balsamiq to create wireframes for different screen sizes
+![Home wireframe](/Documentation%20/wireframe-rps-home.png)
+![Game wireframe](/Documentation%20/wireframe-rps-game.png)
+- I used Balsamiq to create wireframes for different screen sizes.
 ## Features 
 
 #### This Rock Paper Scissors game offers a range of features that provides an engaging and enjoyable gaming experience for players. 
